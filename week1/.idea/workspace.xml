@@ -4,18 +4,17 @@
     <list default="true" id="988dbeaf-9873-4977-9a71-3877e1942a00" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DeluxeBFS.java" afterPath="$PROJECT_DIR$/src/DeluxeBFS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Outcast.java" afterPath="$PROJECT_DIR$/src/Outcast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SAP.java" afterPath="$PROJECT_DIR$/src/SAP.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordNet.java" afterPath="$PROJECT_DIR$/src/WordNet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="week1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/WordNet.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364598345026" ignored="false" />
+    <file path="/WordNet.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364610089555" ignored="false" />
     <file path="/SAP.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364589796068" ignored="false" />
     <file path="/Outcast.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364607204747" ignored="false" />
-    <file path="/DeluxeBFS.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364600478934" ignored="false" />
-    <file path="/fragment.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364607269484" ignored="false" />
-    <file path="/Dummy.txt" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364598843920" ignored="false" />
+    <file path="/DeluxeBFS.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364610001919" ignored="false" />
+    <file path="/fragment.java" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364607463706" ignored="false" />
+    <file path="/Dummy.txt" changelist="988dbeaf-9873-4977-9a71-3877e1942a00" time="1364610133090" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/WordNet.java" line="130" class="WordNet" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/WordNet.java" line="131" class="WordNet" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -45,21 +44,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Outcast.java" line="49" class="Outcast" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Outcast.java" line="42" class="Outcast" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Outcast.java" line="37" class="Outcast" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -118,10 +103,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordNet.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WordNet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WordNet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="44" selection-start="4482" selection-end="4482" vertical-scroll-proportion="0.0">
+            <state line="113" column="18" selection-start="3857" selection-end="3857" vertical-scroll-proportion="0.3316583">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#287#315#0" expanded="true" />
@@ -144,18 +129,20 @@
       <file leaf-file-name="DeluxeBFS.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DeluxeBFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0">
+            <state line="60" column="5" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#2706#2715#0" expanded="true" />
+                <element signature="e#2707#2716#0" expanded="true" />
+                <element signature="e#4293#4302#0" expanded="true" />
+                <element signature="e#6043#6052#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Outcast.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Outcast.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Outcast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="52" selection-start="883" selection-end="883" vertical-scroll-proportion="0.3828125">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -197,7 +184,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
+    <option name="x" value="10" />
     <option name="y" value="22" />
     <option name="width" value="1399" />
     <option name="height" value="771" />
@@ -314,7 +301,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordNet">
+  <component name="RunManager" selected="Application.Outcast">
     <configuration default="false" name="SAP" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SAP" />
@@ -382,7 +369,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Outcast" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="wordnet/synsets.txt wordnet/hypernyms.txt wordnet/outcast5.txt wordnet/outcast8.txt wordnet/outcast11.txt" />
+      <option name="PROGRAM_PARAMETERS" value="wordnet/synsets.txt wordnet/hypernyms.txt wordnet/outcast5.txt " />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -500,8 +487,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.WordNet" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Outcast" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Outcast" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WordNet" />
         <item index="2" class="java.lang.String" itemvalue="Application.SAP" />
         <item index="3" class="java.lang.String" itemvalue="Application.DeluxeBFS" />
       </list>
@@ -536,10 +523,15 @@
       <created>1364430564595</created>
       <updated>1364430564595</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix distance">
+      <created>1364607430858</created>
+      <updated>1364607430858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="22" width="1399" height="771" extended-state="0" />
+    <frame x="10" y="22" width="1399" height="771" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -555,14 +547,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32565284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32565284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10436714" sideWeight="0.6328725" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3671275" sideWeight="0.96891195" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3249445" sideWeight="0.67434716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48847926" sideWeight="0.96891195" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,7 +600,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="detect cycle" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -621,6 +613,8 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="fix distance" />
+    <MESSAGE value="detect cycle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -630,18 +624,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SAP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DeluxeBFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="0" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2706#2715#0" expanded="true" />
+            <element signature="e#2707#2716#0" expanded="true" />
+            <element signature="e#4293#4302#0" expanded="true" />
+            <element signature="e#6043#6052#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,7 +672,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2706#2715#0" expanded="true" />
+            <element signature="e#2707#2716#0" expanded="true" />
+            <element signature="e#4293#4302#0" expanded="true" />
+            <element signature="e#6043#6052#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -723,15 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeluxeBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2706#2715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SAP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="154" column="0" selection-start="5564" selection-end="5564" vertical-scroll-proportion="0.0">
@@ -739,22 +721,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordNet.java">
+    <entry file="file://$PROJECT_DIR$/wordnet/digraph-wordnet.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="44" selection-start="4482" selection-end="4482" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeluxeBFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="5" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#315#0" expanded="true" />
-            <element signature="e#380#397#0" expanded="true" />
-            <element signature="e#1885#1894#0" expanded="true" />
+            <element signature="e#2707#2716#0" expanded="true" />
+            <element signature="e#4293#4302#0" expanded="true" />
+            <element signature="e#6043#6052#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Outcast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="52" selection-start="883" selection-end="883" vertical-scroll-proportion="0.3828125">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="18" selection-start="3857" selection-end="3857" vertical-scroll-proportion="0.3316583">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#315#0" expanded="true" />
+            <element signature="e#380#397#0" expanded="true" />
+            <element signature="e#1885#1894#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

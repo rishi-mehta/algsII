@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 /**
  * User: adrian
  * Date: 3/27/13
@@ -14,16 +12,6 @@ public class Outcast {
 
     }
 
-    private ArrayList<int[]> allTuples(Integer[] arr, int startIdx, ArrayList<int[]> ret) {
-        if (startIdx > arr.length - 1) {
-            return ret;
-        }
-        for (int i = startIdx; i < arr.length - 1; ++i) {
-            ret.add(new int[]{arr[i], arr[i + 1]});
-        }
-        return ret;
-
-    }
 
     // given an array of WordNet nouns, return an outcast
     public String outcast(String[] nouns) {
@@ -34,9 +22,9 @@ public class Outcast {
             String n1 = nouns[i];
             int acc = 0;
             for (int j = 0; j < nouns.length; ++j) {
-                if(i==j)continue;
+                if (i == j) continue;
                 String n2 = nouns[j];
-                int dist=wordnet.distance(n1, n2);
+                int dist = wordnet.distance(n1, n2);
                 System.out.println("n1 = " + n1);
                 System.out.println("n2 = " + n2);
                 System.out.println("dist = " + dist);
@@ -48,12 +36,12 @@ public class Outcast {
         }
 
         int idx = -1;
-        int biggest=0;
+        int biggest = 0;
         for (int i = 0; i < sums.length; i++) {
             int sum = sums[i];
-            if(sum > biggest){
-                biggest=sum;
-                idx=i;
+            if (sum > biggest) {
+                biggest = sum;
+                idx = i;
             }
         }
         return nouns[idx];

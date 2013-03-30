@@ -36,6 +36,7 @@ public class DeluxeBFS {
      */
 
     private static final int INFINITY = Integer.MAX_VALUE;
+
     private boolean[] marked;  // marked[v] = is there an s->v path?
     private int[] edgeTo;      // edgeTo[v] = last edge on shortest s->v path
     private int[] distTo;      // distTo[v] = length of shortest s->v path
@@ -49,14 +50,14 @@ public class DeluxeBFS {
     }
 
     private void reset() {
-        markedIdxs.clear();
         reinit();
+        markedIdxs.clear();
     }
 
 
     private void reinit() {
 
-        if (distTo == null) {
+        if (null == distTo) {
             distTo = new int[G.V()];
             for (int v = 0; v < G.V(); v++) distTo[v] = INFINITY;
         }
@@ -113,11 +114,13 @@ public class DeluxeBFS {
                     if (secondRun) {
                         //no need to keep searching if we are farther out than something
                         //we found already
-                        if (distTo[w] >= bestDistanceSoFar) {
+
+                        if (distTo[w] > bestDistanceSoFar) {
                             secondRun = false;
                             markedIdxs.clear();
                             break;
                         }
+
                         if (markedIdxs.containsKey(w)) {
 
                             //both distances combined

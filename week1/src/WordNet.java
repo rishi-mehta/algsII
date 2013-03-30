@@ -59,6 +59,8 @@ public class WordNet {
         }
 
         graph = new Digraph(count);
+        DirectedCycle dc = new DirectedCycle(graph);
+        if (dc.hasCycle()) throw new java.lang.IllegalArgumentException();
 
 
         while ((line = in2.readLine()) != null) {
@@ -93,7 +95,6 @@ public class WordNet {
 
 
         SAP sap = new SAP(graph);
-        int d = 0;
         List<Integer> one = nounToId.get(nounA);
         List<Integer> two = nounToId.get(nounB);
         if (one.size() > 1 && two.size() > 1) {
