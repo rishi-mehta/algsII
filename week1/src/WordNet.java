@@ -138,7 +138,8 @@ public class WordNet {
         WordNet wordnet = new WordNet(args[0], args[1]);
         //String anscestor = wordnet.sap("Black_Plague", "black_marlin");
         //System.out.println("anscestor = " + anscestor);
-        int d = wordnet.distance("Black_Plague", "black_marlin");
+        //int d = wordnet.distance("Brown_Swiss", "barrel_roll");
+        int d = wordnet.distance("horse", "cat");
         System.out.println("d = " + d);
     }
 }

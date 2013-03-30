@@ -45,30 +45,23 @@ public class DeluxeBFS {
     // single source
     public DeluxeBFS(Digraph G) {
         this.G = G;
-        if (null == marked) {
-            marked = new boolean[G.V()];
-        } else {
-            for (int i : markedIdxs.keySet()) {
-                marked[i] = false;
-                distTo[i] = INFINITY;
-                edgeTo[i] = 0;
-            }
-        }
-        if (distTo == null) {
-            distTo = new int[G.V()];
-            for (int v = 0; v < G.V(); v++) distTo[v] = INFINITY;
-        }
-        if (null == edgeTo) edgeTo = new int[G.V()];
-
-        //markedIdxs.clear();
-        //bfs(G, s);
+        reset();
     }
 
-
-
+    private void reset() {
+        markedIdxs.clear();
+        reinit();
+    }
 
 
     private void reinit() {
+
+        if (distTo == null) {
+            distTo = new int[G.V()];
+            for (int v = 0; v < G.V(); v++) distTo[v] = INFINITY;
+        }
+        if (null == edgeTo) edgeTo = new int[G.V()];
+
         if (null == marked) {
             marked = new boolean[G.V()];
         } else {
@@ -78,21 +71,18 @@ public class DeluxeBFS {
                 edgeTo[i] = 0;
             }
         }
-        if (distTo == null) {
-            distTo = new int[G.V()];
-            for (int v = 0; v < G.V(); v++) distTo[v] = INFINITY;
-        }
-        if (null == edgeTo) edgeTo = new int[G.V()];
+
     }
 
     public Integer[] findCommonAncestor(int v, int w) {
+        reset();
         bfs(G, v);
         reinit();
         return bfs(G, w);
     }
 
     public Integer[] findCommonAncestor(Iterable<Integer> v, Iterable<Integer> w) {
-        reinit();
+        reset();
         bfs(G, v);
         reinit();
         return bfs(G, w);
@@ -103,6 +93,7 @@ public class DeluxeBFS {
 
         int bestDistanceSoFar = INFINITY;
         int bestAncestorSoFar = -1;
+
         boolean secondRun = false;
         if (!markedIdxs.isEmpty()) {
             secondRun = true;
@@ -122,7 +113,7 @@ public class DeluxeBFS {
                     if (secondRun) {
                         //no need to keep searching if we are farther out than something
                         //we found already
-                        if (distTo[w] > bestDistanceSoFar) {
+                        if (distTo[w] >= bestDistanceSoFar) {
                             secondRun = false;
                             markedIdxs.clear();
                             break;

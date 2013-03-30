@@ -9,14 +9,8 @@ import java.util.HashMap;
  * Time: 7:50 PM
  */
 public class SAP {
-    // constructor takes a digraph (not necessarily a DAG)
 
     private Digraph graph;
-
-
-    //keep track of the changed indexes and only re-initialize those on
-    //resets of the BFS
-    private ArrayList<Integer> changedIdxs = new ArrayList<Integer>();
     private HashMap<String, Integer[]> cache = new HashMap<String, Integer[]>();
 
     /**
