@@ -71,7 +71,7 @@ public class SAP {
         String key = makeKey(v, w);
         Integer[] cached = getValueArray(key);
         if (null == cached) {
-            cached = runBfs(v, w);
+            cached = runBfs(v,w);
             cache.put(key, cached);
         }
         return cached[LENGTH];
@@ -151,6 +151,11 @@ public class SAP {
 
         Integer[] ret = null;
         DeluxeBFS bfs1 = new DeluxeBFS(graph);
+
+        //BreadthFirstDirectedPaths bfs=new BreadthFirstDirectedPaths(graph,v);
+        //BreadthFirstDirectedPaths bfs2=new BreadthFirstDirectedPaths(graph,w);
+
+
         ret = bfs1.findCommonAncestor(v, w);
         if (ret[LENGTH] == Integer.MAX_VALUE) ret[LENGTH] = -1;
         return ret;

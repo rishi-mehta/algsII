@@ -97,16 +97,20 @@ public class WordNet {
         SAP sap = new SAP(graph);
         List<Integer> one = nounToId.get(nounA);
         List<Integer> two = nounToId.get(nounB);
-        if (one.size() > 1 && two.size() > 1) {
-            Iterable<Integer> v = nounToId.get(nounA);
-            Iterable<Integer> w = nounToId.get(nounB);
-            return sap.length(v, w);
+        int minDistance=Integer.MAX_VALUE;
 
-        } else {
-            Integer i1 = one.get(0);
-            Integer i2 = two.get(0);
-            return sap.length(i1, i2);
+
+        for (Integer i : one) {
+
+            for (Integer j : two) {
+                int tempDist=sap.length(i,j);
+                if(tempDist < minDistance)minDistance=tempDist;
+            }
         }
+
+
+        return minDistance;
+
     }
 
     // a synset (second field of synsets.txt) that is the common ancestor of nounA and nounB

@@ -104,35 +104,34 @@ public class DeluxeBFS {
         distTo[s] = 0;
         q.enqueue(s);
         while (!q.isEmpty()) {
+
             int v = q.dequeue();
+
             for (int w : G.adj(v)) {
                 if (!marked[w]) {
                     edgeTo[w] = v;
                     distTo[w] = distTo[v] + 1;
                     marked[w] = true;
+                    if (!secondRun) markedIdxs.put(w, distTo[w]);
 
                     if (secondRun) {
                         //no need to keep searching if we are farther out than something
                         //we found already
 
-                        if (distTo[w] > bestDistanceSoFar) {
-                            secondRun = false;
-                            markedIdxs.clear();
-                            break;
-                        }
 
                         if (markedIdxs.containsKey(w)) {
 
+                            if (distTo[w] + markedIdxs.get(w) > bestDistanceSoFar) {
+                                secondRun = false;
+                                reset();
+                                break;
+                            }
                             //both distances combined
                             bestDistanceSoFar = distTo[w] + markedIdxs.get(w);
                             bestAncestorSoFar = w;
 
 
                         }
-
-                    } else {
-
-                        markedIdxs.put(w, distTo[w]);
                     }
 
 
